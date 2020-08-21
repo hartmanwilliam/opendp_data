@@ -1,0 +1,21 @@
+Database:
+  data:
+    data:
+      rows: 2500
+      age:
+        type: int
+        lower: 0
+        upper: 100
+      sex:
+        type: string
+      educ:
+        type: int
+      income:
+        type: int
+        lower: 0
+        upper: 500000
+      married:
+        type: boolean
+      pid:
+        type: int
+        private_id: True
